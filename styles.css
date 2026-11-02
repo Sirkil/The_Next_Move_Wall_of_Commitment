@@ -48,12 +48,11 @@ body {
   position: fixed;
   inset: 0;
   z-index: 0;
-  background-color: var(--color-bg-start);
+  background-color: #0a317d;
   background-image: url('assets/Background.png');
   background-position: center;
   background-repeat: no-repeat;
-  /* Show the complete artwork even on very wide or short displays. */
-  background-size: 100% 100%;
+  background-size: contain;
   overflow: hidden;
 }
 
